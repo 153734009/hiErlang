@@ -1,0 +1,12 @@
+{application, hiErlang,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { hiErlang_app, []}},
+  {env, []}
+ ]}.
